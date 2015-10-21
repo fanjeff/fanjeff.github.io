@@ -1,0 +1,132 @@
+
+# Site settings
+
+url: "http://fanjeff.github.io"
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+
+baseurl: /broccoli
+
+#google-tracking-id: "<YOUR GOOGLE TRACKING ID>"
+
+#############
+# HTML Head #
+#############
+
+author: "Jeff Fan"
+lang: "en"
+title: " Jeff Fan"
+favicon: "/img/favicon.ico"
+description: "Blog and website of Jeff Fan, blogging mainly for tech. Opinions expressed are mine."
+keywords: "personal, tech, life"
+
+################
+# Intro layout #
+################
+
+black-favicon: "/img/black-lab-glass.ico"
+background-img: "../img/intro-bg.jpg"
+me-img: "/img/avatar.png"
+
+##############################
+# Dynamic Text on the header #
+##############################
+
+dynamic-typing: True
+shuffle: True	# Shuffle the lines.
+loop: True
+loop-count:	False # Set False for infinite loop, or set any number for finite loop.
+type-speed:	10		# Default 10
+start-delay: 200	# Default 200
+delete-delay: 5000	# Default 5000
+lines:			# You can add HTML Tags in the Text
+  #- text: "Think slow, Run fast."
+  #- text: "Diet Coke? Diet Sprite? Diet Water?"
+  - text: "Knock, knock. Who’s there?"
+  - text: "(long pause)… …      Java."
+
+########
+# Blog #
+########
+
+post-preview-words: 128
+
+paginate: 5
+
+fb-share: True
+twitter-share: True
+reddit-share: True
+disqus-shortname: "fanjeff"
+
+###############
+# Life Events #
+###############
+
+events:
+  - image: "/img/career/Amazon.jpg"
+    date: "April 2015 - Present"
+    description: "Amazon.com Development"
+  - image: "/img/career/Avaya.jpg"
+    date: "May 2011 - March 2015"
+    description: "Avaya Unified Communications Developement"
+  - image: "/img/career/Carleton.png"
+    date: "June 2008 - December 2010"
+    description: "Carleton University ISIS Network Consultant Group"
+
+# First image of the Career timeline
+career-img: "/img/career/start.gif"
+
+##################
+# Contact layout #
+##################
+
+email: "fanjeff@outlook.com"
+
+##################
+# Social Buttons #
+##################
+
+social:
+  - title: "facebook"
+    url: "http://facebook.com/"
+  - title: "twitter"
+    url: "http://twitter.com/"
+  - title: "youtube"
+    url: "http://youtube.com/"
+  - title: "github"
+    url: "https://github.com/fanjeff"
+  - title: "rss"
+    url: "/feed.xml"
+
+############
+# 404 page #
+############
+
+404-img: "/img/labtocat.png"
+
+################################################################################
+
+# Tread carefully if you want to change the variables below this point!
+
+# Navigation bar links
+# Blog link in the blog and post pages will point to the blog.html#blog
+# In the default page it will point to the preview of the last post
+
+pages_list:
+  About: 'about'
+  Blog: 'blog'
+  Career: 'career'
+  Contact: 'contact'
+
+# Pagination path
+paginate_path: "blog/page:num"
+
+# Enable minification SASS
+sass:
+  style: compressed
+
+# Exclusion list from the generated _site
+exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]

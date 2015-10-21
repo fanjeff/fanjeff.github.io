@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title> Jeff Fan</title>
+		<description>Blog and website of Jeff Fan, blogging mainly for tech. Opinions expressed are mine.</description>
+		<link>http://fanjeff.github.io/broccoli</link>
+		<atom:link href="http://fanjeff.github.io/broccoli/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Welcome to Jeff's website!</title>
+				
+				
+					<description>Any contributions, feedback and issues to the &lt;a href=&quot;https://github.com/fanjeff/broccoli&quot; target=&quot;_blank&quot;&gt;repo&lt;/a&gt; are more than welcome!
+
+
+</description>
+				
+				<pubDate>Sat, 27 Jun 2015 00:00:00 -0700</pubDate>
+				<link>http://fanjeff.github.io/broccoli/tech/2015/06/27/welcome.html</link>
+				<guid isPermaLink="true">http://fanjeff.github.io/broccoli/tech/2015/06/27/welcome.html</guid>
+			</item>
+		
+			<item>
+				<title>Modifying the HTML HEAD</title>
+				
+				
+					<description>In the _config.yml, find and set the variables of the Head section:
+
+</description>
+				
+				<pubDate>Thu, 25 Jun 2015 00:00:00 -0700</pubDate>
+				<link>http://fanjeff.github.io/broccoli/tech/2015/06/25/html-head-tutorial.html</link>
+				<guid isPermaLink="true">http://fanjeff.github.io/broccoli/tech/2015/06/25/html-head-tutorial.html</guid>
+			</item>
+		
+			<item>
+				<title>Modifying the Intro</title>
+				
+				
+					<description>The intro part of the index page is consisted of three elements:
+
+</description>
+				
+				<pubDate>Wed, 24 Jun 2015 00:00:00 -0700</pubDate>
+				<link>http://fanjeff.github.io/broccoli/tech/2015/06/24/intro-layout-tutorial.html</link>
+				<guid isPermaLink="true">http://fanjeff.github.io/broccoli/tech/2015/06/24/intro-layout-tutorial.html</guid>
+			</item>
+		
+			<item>
+				<title>Setting up the Blog</title>
+				
+				
+					<description>A website is truly personal if it's your blog as well, this place of the internet where you can place your thoughts about anything!
+
+</description>
+				
+				<pubDate>Sat, 20 Jun 2015 00:00:00 -0700</pubDate>
+				<link>http://fanjeff.github.io/broccoli/tech/2015/06/20/blog-tutorial.html</link>
+				<guid isPermaLink="true">http://fanjeff.github.io/broccoli/tech/2015/06/20/blog-tutorial.html</guid>
+			</item>
+		
+			<item>
+				<title>Writing posts</title>
+				
+				
+					<description>Every file with the format &lt;i&gt;YYYY-MM-DD-post-title.markup&lt;/i&gt; will be processed as a
+post, with publication date &lt;i&gt;YYYY-MM-DD&lt;/i&gt;.
+
+</description>
+				
+				<pubDate>Fri, 19 Jun 2015 00:00:00 -0700</pubDate>
+				<link>http://fanjeff.github.io/broccoli/tech/2015/06/19/writing-posts.html</link>
+				<guid isPermaLink="true">http://fanjeff.github.io/broccoli/tech/2015/06/19/writing-posts.html</guid>
+			</item>
+		
+	</channel>
+</rss>
